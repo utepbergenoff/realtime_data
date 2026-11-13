@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "sensors": [
+    "Yesil",
+    "Almaty",
+    "Saryarka",
+    "Baikonur"
+  ],
+  "start": "2026-11-01 00:00",
+  "days": 3,
+  "n_partitions": 2,
+  "replay_rate_eps": 1500,
+  "baseline_window": 30,
+  "min_history": 15,
+  "mad_k": 4.0,
+  "z_k": 3.0,
+  "horizon_min": 5,
+  "ml_batch": 32,
+  "warmup_min": 360,
+  "dashboard_refresh_s": 1.5
+}
